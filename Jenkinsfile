@@ -6,7 +6,7 @@ pipeline {
 	}
 
 	tools {
-		jdk 'java-8'
+		jdk 'jdk1.8.0_231'
 	}
 
 	stages {
