@@ -8,6 +8,10 @@ public class DockerDemoCtrl {
 
 	@GetMapping("/message")
 	public String display() {
-		return "welcome to docker";
+		return "welcome to docker...";
+	}
+	@GetMapping("/")
+	public String home(){
+		return "welcome to containerized app..";
 	}
 }
