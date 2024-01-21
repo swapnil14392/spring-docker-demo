@@ -14,7 +14,19 @@ class DockerDemoCtrlTest {
         //   so wrote a non-Spring test instead.
         //   Diffblue AI was unable to find a test
 
-        assertEquals("welcome to docker", (new DockerDemoCtrl()).display());
+        assertEquals("welcome to docker...", (new DockerDemoCtrl()).display());
+    }
+
+    /**
+     * Method under test: {@link DockerDemoCtrl#home()}
+     */
+    @Test
+    void testHome() {
+        //   Diffblue Cover was unable to write a Spring test,
+        //   so wrote a non-Spring test instead.
+        //   Diffblue AI was unable to find a test
+
+        assertEquals("welcome to containerized app..", (new DockerDemoCtrl()).home());
     }
 }
 
