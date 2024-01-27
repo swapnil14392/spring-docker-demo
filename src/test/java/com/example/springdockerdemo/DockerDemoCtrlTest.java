@@ -14,7 +14,7 @@ class DockerDemoCtrlTest {
         //   so wrote a non-Spring test instead.
         //   Diffblue AI was unable to find a test
 
-        assertEquals("welcome to docker", (new DockerDemoCtrl()).display());
+        assertEquals("welcome to docker...", (new DockerDemoCtrl()).display());
     }
 }
 
